@@ -1,0 +1,74 @@
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QCalendarWidget {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+QLineEdit {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+QTextEdit {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+QTimeEdit {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    margin: 2px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QTableWidget {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #f0f0f0;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+QComboBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+QLabel {
+    font-size: 16px;
+    margin: 5px;
+}

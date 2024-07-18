@@ -1,0 +1,71 @@
+/* Общие стили */
+QWidget {
+    font-family: Arial, sans-serif;
+}
+
+/* Верхняя панель */
+#programNameLabel {
+    font-size: 36px;
+    font-weight: bold;
+    color: #343a40; /* Gray color */
+}
+
+#subtitleLabel {
+    font-size: 24px;
+    color: #343a40; /* Gray color */
+}
+
+/* Кнопки настройки и выхода */
+#settingsButton, #logoutButton {
+    background-color: #28a745; /* Green color */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Индикаторы слайдов */
+#indicator {
+    font-size: 36px;
+    color: gray;
+}
+
+/* Кнопки внизу */
+#bottomButton {
+    background-color: #6c757d; /* Dark gray color */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+}
+
+#bottomButton:hover {
+    background-color: #5a6268; /* Darker gray */
+}
+
+#bottomButton::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: url('training/icon.png') no-repeat center center;
+    background-size: cover;
+}
+
+#gameButton {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#gameButton:hover {
+    background-color: #0056b3; /* Darker blue */
+}

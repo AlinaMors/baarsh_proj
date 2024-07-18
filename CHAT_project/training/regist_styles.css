@@ -1,0 +1,69 @@
+/* registration/style.css */
+
+QWidget {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+}
+
+QLabel {
+    color: #333;
+    font-size: 18px; /* Increased font size */
+    text-align: center; /* Centered text */
+}
+
+QLineEdit, QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    background-color: #fff;
+    min-height: 40px; /* Increased height */
+    width: 100%; /* Full width */
+}
+
+QPushButton {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 15px 30px; /* Increased padding */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; /* Increased font size */
+    border-radius: 4px;
+    margin: 10px; /* Increased margin */
+    min-height: 40px; /* Increased height */
+    width: 100%; /* Full width */
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+QMessageBox {
+    background-color: #fff;
+    color: #333;
+}
+
+#login_form, #registration_form {
+    max-width: 500px; /* Increased width */
+    padding: 40px; /* Increased padding */
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center all text */
+}
+
+#login_form QLabel, #registration_form QLabel {
+    font-size: 20px; /* Increased font size */
+    margin-bottom: 16px;
+}
+
+#login_form QLineEdit, #registration_form QLineEdit {
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 24px; /* Increased margin */
+}
+
+#login_form QPushButton, #registration_form QPushButton {
+    font-size: 18px; /* Increased font size */
+}
